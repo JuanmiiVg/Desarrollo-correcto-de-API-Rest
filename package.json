@@ -4,11 +4,12 @@
   "description": "Este archivo se escribe en formato markdown.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RafaeldelRio/daweb.git"
+    "url": "git+https://github.com/JuanmiiVg/Desarrollo-correcto-de-API-Rest.git"
   },
   "keywords": [],
   "author": "",
@@ -16,8 +17,8 @@
   "bugs": {
     "url": "https://github.com/RafaeldelRio/daweb/issues"
   },
-  "homepage": "https://github.com/RafaeldelRio/daweb#readme",
+  "homepage": "https://github.com/JuanmiiVg/Desarrollo-correcto-de-API-Rest/blob/master/readme.md",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.21.2"
   }
 }
