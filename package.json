@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/JuanmiiVg/Desarrollo-correcto-de-API-Rest/blob/master/readme.md",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
