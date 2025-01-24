@@ -12,9 +12,10 @@ app.use(express.json());
 
 //Comenzamos a usar helmet
 app.use(helmet());
-app.use(helmet.hsts({ maxAge: 31536000, includeSubDomains: true }));
-app.use(helmet.noSniff());
-app.use(helmet.frameguard({ action: "deny" }));
+app.use(helmet.hsts({ maxAge: 31536000, includeSubDomains: true })); // HTTP Strict Transport Security
+app.use(helmet.noSniff()); // Previene que los navegadores adivinen el tipo de contenido
+app.use(helmet.frameguard({ action: "deny" })); // Previene ataques de clickjacking
+//Fin del uso de helmet
 
 // Configuración de Swagger
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
